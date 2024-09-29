@@ -1,0 +1,48 @@
+{
+  "id": 1,
+  "version": 1,
+  "title": "Form Test 1",
+  "groups": [
+    {
+      "id": 1,
+      "title": "Group 1",
+      "sections": [
+        {
+          "id": 1,
+          "title": "Section 1",
+          "fields": [
+            {
+              "id": 1,
+              "label": "Name",
+              "modelPropertyName": "name",
+              "type": "text",
+              "validator": {
+                "required": true,
+                "maxLength": 20
+              }
+            },
+            {
+              "id": 2,
+              "label": "Age",
+              "modelPropertyName": "age",
+              "type": "number",
+              "validator": {
+                "required": true,
+                "min": 18
+              }
+            },
+            {
+              "id": 3,
+              "label": "Notes",
+              "modelPropertyName": "notes",
+              "type": "text-area",
+              "validator": {
+                "maxLength": 255
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
