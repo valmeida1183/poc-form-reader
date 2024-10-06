@@ -1,3 +1,6 @@
-@if(users().length) { @for (user of users(); track user.id) {
-<p>UserId: {{ user.id }} - Name: {{ user.name }}</p>
-} }
+@if (users().length) {
+  <h3>User list:</h3>
+  @for (user of users(); track user.id) {
+    <p>UserId: {{ user.id }} - Name: {{ user.name }}</p>
+  }
+}

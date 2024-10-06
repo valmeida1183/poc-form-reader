@@ -1,0 +1,4 @@
+1) Uma boa dica é utilizar o comando "ng build poc-reader-lib --watch" para buildar a liba a cada alteração de um artefato contido nela.
+2) Utilize o comando "npm whoami" para verificar se está logado na sua conta do npm
+3) Para authenticar na conta do npm via cli, utilize: "npm adduser"
+4) Para "despublicar" uma versão de pacote utilzie: "npm unpublish [nome-da-lib]@[versao-da-lib] 
